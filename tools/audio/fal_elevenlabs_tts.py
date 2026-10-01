@@ -345,6 +345,7 @@ class FalElevenLabsTTS(BaseTool):
             "speed": speed,
             "output": str(output_path),
             "format": output_format,
+            "audio_url": audio_url,
         }
         if payload["timestamps"] and "timestamps" in result_data:
             data["timestamps"] = result_data["timestamps"]
